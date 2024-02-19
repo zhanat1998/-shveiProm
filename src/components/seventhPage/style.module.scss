@@ -1,0 +1,20 @@
+@import '../../variables/index.scss';
+
+.container {
+  width: $useful-width;
+  text-align: center;
+  margin: 70px;
+}
+h3 {
+  color: var(--main-color);
+  @include font-layout($font50, $weight500, $height130, $family-Manrope);
+}
+.main {
+  width: $useful-width;
+  height: 754px;
+}
+.main img {
+  width: $all-width;
+  height: $all-height;
+  object-fit: cover;
+}

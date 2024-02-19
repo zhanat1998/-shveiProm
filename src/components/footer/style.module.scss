@@ -1,0 +1,26 @@
+@import '../../variables/index.scss';
+
+.container {
+  width: $useful-width;
+  height: 103.31px;
+  margin: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.forPicture {
+  width: 138.08px;
+  height: 103.31px;
+}
+.forPicture img {
+  width: $all-width;
+  height: $all-height;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: end;
+  &__tag img {
+    margin-right: 15px;
+  }
+}
