@@ -4,7 +4,7 @@ import picture1 from '../../images/picture-1.svg';
 const mainPage = '/';
 const Navbar = () => {
   return (
-    <header>
+    <header className={style.header}>
       <img className={style.logo} src={picture1} alt="#" />
       <nav className={style.navbar}>
         <Link to={mainPage} className={style.navbar__link}>
@@ -20,6 +20,11 @@ const Navbar = () => {
           Контакты
         </Link>
       </nav>
+      <button className={style.burger}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </header>
   );
 };

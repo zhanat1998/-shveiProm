@@ -1,0 +1,68 @@
+@import '../../variables/index.scss';
+
+.mainPage {
+  width: 1447px;
+}
+.container {
+  max-width: 1300px;
+  margin: 70px;
+}
+h3 {
+  color: var(--main-color);
+  @include font-layout($font50, $weight500, $height130, $family-Manrope);
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.general {
+  width: 485px;
+  height: 358px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  column-gap: 20px;
+  &__parag {
+    color: var(--main-color);
+    @include font-layout($font20, $weight500, $height130, $family-Manrope);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__tag {
+    color: var(--main-color);
+    @include font-layout($font40, $weight500, $height130, $family-Manrope);
+  }
+}
+.table {
+  position: absolute;
+  right: 70px;
+  top: 80px;
+  width: 485px;
+  height: 288px;
+  text-align: center;
+  @include flex-layout($direction: column, $align: center);
+  color: var(--main-color);
+  &__tag {
+    @include font-layout($font40, $weight500, $height130, $family-Manrope);
+  }
+  &__paragraph {
+    @include font-layout($font20, $weight500, $height130, $family-Manrope);
+  }
+  &__button {
+    width: 220px;
+    height: 66px;
+    @include flex-layout($justify: center, $align: center);
+    border-radius: 6px;
+    background: var(--main-color);
+    color: var(--main-white);
+    @include font-layout($font20, $weight400, $height130, $family-Montserrat);
+  }
+}
+.picture {
+  position: relative;
+  width: $all-width;
+  height: 458px;
+}
