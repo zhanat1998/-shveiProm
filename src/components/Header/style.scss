@@ -1,0 +1,45 @@
+@import '../../variables/variables.scss';
+
+.container {
+  max-width: $desctop;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+.headers {
+  height: 119px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 119px;
+  &__block {
+    display: flex;
+    gap: 45px;
+  }
+  &__link {
+    @include font(22, 500);
+  }
+}
+@media (max-width: $desctop1200) {
+  .container {
+    max-width: $desctop1180;
+  }
+  .header {
+    &__link {
+      @include font(20, 500);
+    }
+  }
+}
+@media (max-width: $tablet992) {
+  .container {
+    max-width: $tablet930;
+  }
+  .header {
+    &__block {
+      display: flex;
+      gap: 40px;
+    }
+  }
+}
