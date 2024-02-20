@@ -1,20 +1,20 @@
-import style from './style.module.scss';
+import '../../sass/components/_footer.scss';
 import first from '../../images/first.svg';
 import second from '../../images/second.svg';
 import third from '../../images/third.svg';
 
 const Footer = () => {
   return (
-    <section className={style.container}>
-      <article className={style.forPicture}>
+    <section className="containerf">
+      <article className="forPicturef">
         <img src={first} alt="#" />
       </article>
-      <div className={style.main}>
-        <article className={style.main__tag}>
+      <div className="mainf">
+        <article className="mainf__tagf">
           <img src={second} alt="#" />
           <a href="#">+996 559 332 187</a>
         </article>
-        <article className={style.main__tag}>
+        <article className="mainf__tagf">
           <img src={third} alt="#" />
           <a href="#">Г. Бишкек, Ул. Переулок Лагерный</a>
         </article>

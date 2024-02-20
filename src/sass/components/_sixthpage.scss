@@ -1,9 +1,10 @@
-@import '../../variables/index.scss';
+// @import '../../variables/index.scss';
+@import '../../sass/abstract/variables';
 
-.mainPage {
+.mainPage6 {
   width: 1447px;
 }
-.container {
+.container6 {
   max-width: 1300px;
   margin: 70px;
 }
@@ -11,12 +12,12 @@ h3 {
   color: var(--main-color);
   @include font-layout($font50, $weight500, $height130, $family-Manrope);
 }
-.main {
+.main6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.general {
+.general6 {
   width: 485px;
   height: 358px;
   display: flex;
@@ -24,19 +25,19 @@ h3 {
   justify-content: space-between;
   text-align: center;
   column-gap: 20px;
-  &__parag {
+  &__parag6 {
     color: var(--main-color);
     @include font-layout($font20, $weight500, $height130, $family-Manrope);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  &__tag {
+  &__tag6 {
     color: var(--main-color);
     @include font-layout($font40, $weight500, $height130, $family-Manrope);
   }
 }
-.table {
+.table6 {
   position: absolute;
   right: 70px;
   top: 80px;
@@ -45,13 +46,13 @@ h3 {
   text-align: center;
   @include flex-layout($direction: column, $align: center);
   color: var(--main-color);
-  &__tag {
+  &__tag6 {
     @include font-layout($font40, $weight500, $height130, $family-Manrope);
   }
-  &__paragraph {
+  &__paragraph6 {
     @include font-layout($font20, $weight500, $height130, $family-Manrope);
   }
-  &__button {
+  &__button6 {
     width: 220px;
     height: 66px;
     @include flex-layout($justify: center, $align: center);
@@ -61,7 +62,7 @@ h3 {
     @include font-layout($font20, $weight400, $height130, $family-Montserrat);
   }
 }
-.picture {
+.picture6 {
   position: relative;
   width: $all-width;
   height: 458px;

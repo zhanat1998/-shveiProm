@@ -8,21 +8,22 @@ import FifthPage from '../components/fifthPage';
 import SixPage from '../components/sixPage';
 import SeventhPage from '../components/seventhPage';
 import Footer from '../components/footer';
+import Navigation from '../components/navigation';
 
 export const router = createBrowserRouter([
   {
     path: '/',
     element: (
       <>
-        <Navbar />
+        <Navigation />
         <FirstPage />
         <SecondPage />
         <ThirdPage />
         <FourthPage />
-        <FifthPage />
-        <SixPage />
-        <SeventhPage />
-        <Footer />
+        {/* <FifthPage /> */}
+        {/* <SixPage /> */}
+        {/* <SeventhPage /> */}
+        {/* <Footer /> */}
       </>
     ),
   },

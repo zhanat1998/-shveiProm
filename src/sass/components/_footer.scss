@@ -1,26 +1,27 @@
-@import '../../variables/index.scss';
+// @import '../../variables/index.scss';
+@import '../../sass/abstract/variables';
 
-.container {
+.containerf {
   width: $useful-width;
   height: 103.31px;
   margin: 70px;
   display: flex;
   justify-content: space-between;
 }
-.forPicture {
+.forPicturef {
   width: 138.08px;
   height: 103.31px;
 }
-.forPicture img {
+.forPicturef img {
   width: $all-width;
   height: $all-height;
 }
-.main {
+.mainf {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: end;
-  &__tag img {
+  &__tagf img {
     margin-right: 15px;
   }
 }

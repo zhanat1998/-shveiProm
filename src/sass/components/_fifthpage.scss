@@ -1,38 +1,40 @@
-@import '../../variables/index.scss';
-.container {
+@import '../../sass/abstract/variables';
+@import '../abstract/mixins';
+
+.container5 {
   margin: 70px;
 }
-.general {
+.general5 {
   display: flex;
 }
-.rectangle_1 {
+.rectangle_15 {
   width: 641px;
   height: 744px;
   margin-right: 20px;
 }
-.rectangle_1 img {
+.rectangle_15 img {
   width: $all-width;
   height: $all-height;
   object-fit: cover;
   border-radius: 6px;
 }
-.rectangle_2 {
+.rectangle_25 {
   display: grid;
   grid-template-columns: 311px 311px;
   grid-template-rows: 362px 362px;
   row-gap: 20px;
   column-gap: 20px;
 }
-.main {
+.main5 {
   width: 311px;
   height: 362px;
 }
-.main img {
+.main5 img {
   width: $all-width;
   height: $all-height;
   object-fit: cover;
 }
-h3 {
+.h3_tag4 {
   color: var(--main-color);
   @include font-layout($font50, $weight500, $height130, $family-Manrope);
 }
