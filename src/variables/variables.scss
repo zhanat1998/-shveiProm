@@ -1,0 +1,22 @@
+$desctop: 1520px;
+$desctop1200: 1200px;
+$desctop1180: 1160px;
+
+$tablet992: 992px;
+$tablet930: 930px;
+
+$fontStyle: normal;
+
+@mixin font($size, $weight, $family: Manrope) {
+  font-size: #{$size + px};
+  font-weight: $weight;
+  font-family: $family;
+  line-height: 130%;
+}
+
+:root {
+  --colorYellow: #eef2d1;
+  --colorBlack: rgb(30, 30, 30);
+  --colorOrange: orange;
+  --colorWhite: white;
+}
