@@ -1,0 +1,21 @@
+// @import '../../variables/index.scss';
+@import '../../sass/abstract/variables';
+
+.container7 {
+  width: $useful-width;
+  text-align: center;
+  margin: 70px;
+}
+h3 {
+  color: var(--main-color);
+  @include font-layout($font50, $weight500, $height130, $family-Manrope);
+}
+.main7 {
+  width: $useful-width;
+  height: 754px;
+}
+.main7 img {
+  width: $all-width;
+  height: $all-height;
+  object-fit: cover;
+}
